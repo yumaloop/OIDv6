@@ -25,6 +25,8 @@ mkdir csv
 mkdir csv/full
 ```
 
+### Procedure
+
 ##### 0. Download the class information
 
 ```
