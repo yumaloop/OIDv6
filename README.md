@@ -1,8 +1,9 @@
 # OIDv6
 
-How to download the image data related to the chosen classes from Google OpenImageDataset (version 6).
+How to download the image data related to the chosen classes from Google Open-Images-Dataset (version 6).
 
-Cf. [How to Download a Subset of Open Image Dataset v6 (on ubuntu using the shell) - Medium.com](https://medium.com/@nicolas.windt/how-to-download-a-subset-of-open-image-dataset-v6-on-ubuntu-using-the-shell-c55336e33b03)
+- [How to Download a Subset of Open Image Dataset v6 (on ubuntu using the shell) - Medium.com](https://medium.com/@nicolas.windt/how-to-download-a-subset-of-open-image-dataset-v6-on-ubuntu-using-the-shell-c55336e33b03)
+- [cvdfoundation/open-images-dataset](https://github.com/cvdfoundation/open-images-dataset#download-full-dataset-with-google-storage-transfer)
 
 
 ### Preparation
