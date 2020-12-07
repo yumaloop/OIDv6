@@ -116,22 +116,3 @@ done
 
 ```
 
-```
-# test (Duck)
-grep -f csv/duck-test-images-ids.txt csv/full/test-images-with-rotation.csv | csvtool -c 1,3 > csv/duck-test-images-urls.csv
-
-# test (Rabbit)
-grep -f csv/rabbit-test-images-ids.txt csv/full/test-images-with-rotation.csv | csvtool -c 1,3 > csv/rabbit-test-images-urls.csv
-
-# validation (Duck)
-grep -f csv/duck-validation-images-ids.txt csv/full/validation-images-with-rotation.csv | csvtool -c 1,3 > csv/duck-validation-images-urls.csv
-
-# validation (Rabbit)
-grep -f csv/rabbit-validation-images-ids.txt csv/full/validation-images-with-rotation.csv | csvtool -c 1,3 > csv/rabbit-validation-images-urls.csv
-
-# train (Duck)
-grep -f csv/duck-train-images-ids.txt csv/full/train-images-boxable-with-rotation.csv | csvtool -c 1,3 > csv/duck-train-images-urls.csv
-
-# train (Rabbit)
-grep -f csv/rabbit-train-images-ids.txt csv/full/train-images-boxable-with-rotation.csv | csvtool -c 1,3 > csv/rabbit-train-images-urls.csv
-```
