@@ -1,13 +1,11 @@
 # OIDv6
 
-Open Image Dataset version 6 
-
+How to download the image data related to the chosen classes from Google OpenImageDataset (version 6).
 
 Cf. [How to Download a Subset of Open Image Dataset v6 (on ubuntu using the shell) - Medium.com](https://medium.com/@nicolas.windt/how-to-download-a-subset-of-open-image-dataset-v6-on-ubuntu-using-the-shell-c55336e33b03)
 
 
-### 
-
+### Preparation
 
 Install csvtool in macOS
 
@@ -16,21 +14,15 @@ brew install opam
 opam init
 opam install csv
 sudo ln -s ~/.opam/system/bin/csvtool /usr/local/bin/
-csvtool --help
-csvtool --version
+csvtool --help # check if csvtool is downloaded
+csvtool --version # check if csvtools is downloaded
 ```
+
+Cleate new directories.
 
 ```
 mkdir csv
 mkdir csv/full
-```
-
-### OID (v6) class
-
-
-```
-/m/09ddx,Duck
-/m/06mf6,Rabbit
 ```
 
 ##### 0. Download the class information
@@ -46,6 +38,13 @@ wget https://raw.githubusercontent.com/tensorflow/models/master/research/object_
 ```
 # Gather the suitable class name
 egrep Duck csv/full/class-descriptions-boxable.csv | head -n 1 | csvtool col 1 -
+```
+
+see `csv/full/class-descriptions-boxable.csv`
+
+```
+/m/09ddx,Duck
+/m/06mf6,Rabbit
 ```
 
 ##### 1. Download all bounding boxes annotations (full search)
