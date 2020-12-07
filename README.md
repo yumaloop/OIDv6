@@ -84,6 +84,22 @@ egrep /m/09ddx csv/full/train-annotations-bbox.csv | cut -d ',' -f1 > csv/duck-t
 ##### 4. Filter the image urls corresponding to the selected class (e.g. `Duck` & `Rabbit`)
 
 ```
+#!/bin/bash
+
+for class in "duck" "rabbit"
+do
+  for subset in "test" "validation" "train"
+  do
+    # echo $subset
+    while read p; do
+      # echo $p
+      LC_ALL=C grep -i ${p} csv/full/${subset}-images-with-rotation.csv | csvtool -c 1,3 > csv/${class}-${subset}-images-urls.csv
+    done < csv/${class}-${subset}-images-ids.txt
+  done
+done
+```
+
+```
 # test (Duck)
 grep -f csv/duck-test-images-ids.txt csv/full/test-images-with-rotation.csv | csvtool -c 1,3 > csv/duck-test-images-urls.csv
 
