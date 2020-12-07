@@ -1,4 +1,4 @@
-# OIDv6
+# OpenImageDataset v6 
 
 Cf. [How to Download a Subset of Open Image Dataset v6 (on ubuntu using the shell) - Medium.com](https://medium.com/@nicolas.windt/how-to-download-a-subset-of-open-image-dataset-v6-on-ubuntu-using-the-shell-c55336e33b03)
 
@@ -15,6 +15,11 @@ opam install csv
 sudo ln -s ~/.opam/system/bin/csvtool /usr/local/bin/
 csvtool --help
 csvtool --version
+```
+
+```
+mkdir csv
+mkdir csv/full
 ```
 
 ### OID (v6) class
