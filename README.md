@@ -1,4 +1,7 @@
-# OpenImageDataset v6 
+# OIDv6
+
+Open Image Dataset version 6 
+
 
 Cf. [How to Download a Subset of Open Image Dataset v6 (on ubuntu using the shell) - Medium.com](https://medium.com/@nicolas.windt/how-to-download-a-subset-of-open-image-dataset-v6-on-ubuntu-using-the-shell-c55336e33b03)
 
