@@ -19,7 +19,7 @@ csvtool --help # check if csvtool is downloaded
 csvtool --version # check if csvtools is downloaded
 ```
 
-Cleate new directories.
+Create new directories.
 
 ```
 mkdir csv
@@ -110,7 +110,6 @@ do
       echo $p
       LC_ALL=C grep -i ${p} csv/full/${subset}-images-with-rotation.csv | csvtool -c 1,3 >> csv/${class}-${subset}-images-urls.csv
     done < csv/input.txt
-
   done
 done
 
