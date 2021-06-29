@@ -8,6 +8,12 @@ How to download the image data related to the chosen classes from Google Open-Im
 
 ### Preparation
 
+Install csvtool in Ubuntu
+
+```
+sudo apt-get install csvtool
+```
+
 Install csvtool in macOS
 
 ```
