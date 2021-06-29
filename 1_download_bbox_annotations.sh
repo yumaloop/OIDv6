@@ -5,5 +5,5 @@ wget https://storage.googleapis.com/openimages/v5/test-annotations-bbox.csv -O c
 wget https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv -O csv/full/validation-annotations-bbox.csv
 
 # train annotations (bbox) 2.10G
-wget https://storage.googleapis.com/openimages/v6/oidv6-train-annotations-bbox.csv -O csv/full/oidv6-train-annotations-bbox.csv
+wget https://storage.googleapis.com/openimages/v6/oidv6-train-annotations-bbox.csv -O csv/full/train-annotations-bbox.csv
 

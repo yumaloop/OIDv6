@@ -1,4 +1,6 @@
 # Download the classes description
+mkdir csv
+mkdir csv/full
 wget https://storage.googleapis.com/openimages/v5/class-descriptions-boxable.csv -O csv/full/class-descriptions-boxable.csv
 
 # Downlad the label_map.pbtxt
